@@ -44,4 +44,19 @@ function multiInterval(start, end){
     console.log(totalMult)
         
 } 
-multiInterval(2, 10)
+//multiInterval(2, 10)
+
+function checkParity(checkedNumber){
+    console.log("3.Verificar se um Número é Par ou Ímpar")
+    
+    var restDivision = checkedNumber % 2
+
+    
+    if(restDivision === 0){
+        console.log(`O numero ${checkedNumber} é Par`)
+    }
+    else{
+        console.log(`O numero ${checkedNumber} é Impar` )
+    }
+}
+checkParity(7)

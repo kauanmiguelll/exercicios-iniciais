@@ -13,3 +13,9 @@ Esse repositório tem como objetivo me ajudar a desenvolver logica de programaç
 **Exemplo:** `somarIntervalo(2, 4)` → retorna 9 (2+3+4).
 **Objetivo:** Trabalhar com acumuladores em loops.
 **Dificuldade:** Fácil
+
+## 3. Verificar se um Número é Par ou Ímpar
+**Enunciado:** Crie uma função que recebe um número e retorna "Par" se for par ou "Ímpar" se for ímpar.
+**Exemplo:** `verificarParidade(7)` → retorna "Ímpar".
+**Objetivo:** Utilizar operadores matemáticos e condicionais.
+**Dificuldade:** Fácil
