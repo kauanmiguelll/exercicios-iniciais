@@ -25,3 +25,9 @@ Esse repositório tem como objetivo me ajudar a desenvolver logica de programaç
 **Exemplo:** `inverterString("hello")` → retorna "olleh".
 **Objetivo:** Manipulação de strings e loops.
 **Dificuldade:** Médio
+
+## 5 . Encontrar o Maior Número em um Array
+**Enunciado:** Crie uma função que recebe um array de números e retorna o maior valor.
+**Exemplo:** `encontrarMaior([5, 2, 9, 1])`→ retorna 9.
+**Objetivo:** Trabalhar com arrays e comparações.
+**Dificuldade:** Médio

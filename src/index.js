@@ -79,19 +79,37 @@ function invertString(str){
    
 }
 var s1 = invertString("hello")
-console.log(s1)
+//console.log(s1)
 
 
 
-// function encontrarMaior(arr) {
-//     var maior [0];
-//     for (var num of arr){ 
-//         if (num > maior) maior = num;
-//     }
-//     return maior;
-// }
+function encontrarMaior(arr) { //[10, 2, 9, 1]
+    var indice = 0
+    var maior = arr[indice]; // 10
+    for (var i = 1; i < arr.length; i++){ 
+        if( arr[i] > maior){
+            maior  = arr[i]
+        }
+        
+    }
+    return maior;
+}
 
-// console.log(encontrarMaior([5, 2, 9, 1]));
+//console.log('AAAA = ', encontrarMaior([10, 2, 9, 1]));
+
+function encontrarMenor(arr) { //[10, 2, 9, 1]
+    var indice = 0
+    var menor = arr[indice]; // 10
+    for (var i = 1; i < arr.length; i++){ 
+        if( arr[i] < menor){
+            menor  = arr[i]
+        }
+        
+    }
+    return menor;
+}
+
+console.log('AAAA = ', encontrarMenor([10, 2, 9, 1]));
 
 
 // function contarVogais(str) {
