@@ -59,4 +59,76 @@ function checkParity(checkedNumber){
         console.log(`O numero ${checkedNumber} é Impar` )
     }
 }
-checkParity(7)
+// checkParity(7)
+
+function invertString(str){
+    //console.log("str = " ,str)
+    var tamanhoString = str.length
+    //console.log("tamanhoString = ", tamanhoString)
+    var indiceUltimoElemento = tamanhoString - 1
+    //console.log("indiceUltimoElemento = ", indiceUltimoElemento)
+
+    var stringInvertida = ""
+
+    for(var i = indiceUltimoElemento; i>=0; i-- ){
+        stringInvertida = stringInvertida + str[i]
+       
+    }
+    
+    return stringInvertida
+   
+}
+var s1 = invertString("hello")
+console.log(s1)
+
+
+
+// function encontrarMaior(arr) {
+//     var maior [0];
+//     for (var num of arr){ 
+//         if (num > maior) maior = num;
+//     }
+//     return maior;
+// }
+
+// console.log(encontrarMaior([5, 2, 9, 1]));
+
+
+// function contarVogais(str) {
+//     var contador = 0
+//     for (var letra of str){ 
+//         if ("aeiouAEIOU".includes(letra)) contador++;
+//     }
+//     return contador;
+// }
+
+// console.log(contarVogais("javascript"));
+
+// function verificarPalindromo(palavra) {
+//     return palavra === palavra.split("").reverse().join("");
+// }
+
+// console.log(verificarPalindromo("arara")); 
+// console.log(verificarPalindromo("teste")); 
+
+
+
+// function fibonacci(n) {
+//     var seq [0,1];
+//     for (var i=2; i < n; i++) seq.push(seq[i - 1] + seq[i - 2]);
+//     return seq.slice(0, n);
+// }
+
+// console.log(fibonacci(5));
+
+
+// function verificarPrimo(n) {
+//     if (n < 2) return false;
+//     for (var i = 2; i < n; i++) {
+//         if (n % i === 0) return false;
+//     }
+//     return true;
+// }
+
+// console.log(verificarPrimo(11)); 
+// console.log(verificarPrimo(10)); 

@@ -19,3 +19,9 @@ Esse repositório tem como objetivo me ajudar a desenvolver logica de programaç
 **Exemplo:** `verificarParidade(7)` → retorna "Ímpar".
 **Objetivo:** Utilizar operadores matemáticos e condicionais.
 **Dificuldade:** Fácil
+
+## 4 .Inverter uma String
+**Enunciado:** Crie uma função que recebe uma string e retorna ela invertida.
+**Exemplo:** `inverterString("hello")` → retorna "olleh".
+**Objetivo:** Manipulação de strings e loops.
+**Dificuldade:** Médio
